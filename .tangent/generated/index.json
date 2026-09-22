@@ -1,0 +1,140 @@
+{
+	"version": 1,
+	"date": "2026-09-22T20:07:32.136Z",
+	"items": {
+		"FILES/.tangent/tags": {
+			"uuid": "1f1b6c0d-a9a2-6ff0-99b6-15cc00de5aa3"
+		},
+		"FILES/.tangent/tangents": {
+			"uuid": "1f1b6c0d-a9a5-6700-94b5-7d57ba2001e2"
+		},
+		"FILES/.tangent/tangents/kristian_0": {
+			"uuid": "1f1b6c0d-a9e4-6ea0-aacf-e84e77a3c217"
+		},
+		"FILES/.tangent/tangents/kristian_0/sessions": {
+			"uuid": "1f1b6c0d-accb-61a0-b60a-662c7041fea4"
+		},
+		"FILES/.tangent/tangents/kristian_0/sessions/2026-9-22_22-4-44.tangentsession": {
+			"uuid": "1f1b6c0d-accb-61a1-8ff8-3c3a1ecc20a9"
+		},
+		"FILES/.tangent/tangents/kristian_0/state": {
+			"uuid": "1f1b6c10-1910-62a0-baad-5b31ff2b17cb"
+		},
+		"FILES/.tangent/tangents/kristian_0/state/1f1b6c0d-a558-65d0-a448-49449b024e5c.noteview": {
+			"uuid": "1f1b6c11-6509-6840-86d2-1e5c87fc9a13"
+		},
+		"FILES/.tangent/tangents/kristian_0/state/1f1b6c0d-a547-6460-ad81-48d31df7d292.noteview": {
+			"uuid": "1f1b6c10-1910-62a1-88b8-070d08a652c0"
+		},
+		"FILES/.tangent/tangents/kristian_0/tangent.json": {
+			"uuid": "1f1b6c0d-a9e4-6ea1-aea3-4b5a13e2996b"
+		},
+		"FILES/C++_part/Elecrticall_Sheet.png": {
+			"uuid": "1f1b6c0d-a569-6740-8fed-2e2f82b2c2c3"
+		},
+		"FILES/C++_part/README.md": {
+			"uuid": "1f1b6c0d-a558-65d0-a448-49449b024e5c",
+			"modified": "2026-09-22T15:32:17.580Z",
+			"structure": [
+				{
+					"type": 2,
+					"level": 1,
+					"text": "Description",
+					"start": 0,
+					"end": 13
+				},
+				{
+					"type": 1,
+					"form": "wiki",
+					"start": 110,
+					"end": 136,
+					"href": "Elecrticall_Sheet.png",
+					"context": "![[Elecrticall_Sheet.png]]",
+					"to": "FILES/C++_part/Elecrticall_Sheet.png"
+				},
+				{
+					"type": 2,
+					"level": 1,
+					"text": "1.Installa le dipendenze",
+					"start": 138,
+					"end": 164
+				},
+				{
+					"type": 2,
+					"level": 1,
+					"text": "2.Compile the source code",
+					"start": 241,
+					"end": 268
+				},
+				{
+					"type": 2,
+					"level": 1,
+					"text": "3.Put the source code in the right place and make it executable",
+					"start": 317,
+					"end": 382
+				},
+				{
+					"type": 2,
+					"level": 1,
+					"text": "4.Copy the servies",
+					"start": 472,
+					"end": 492
+				},
+				{
+					"type": 2,
+					"level": 1,
+					"text": "5.Activate all services",
+					"start": 602,
+					"end": 627
+				}
+			]
+		},
+		"FILES/C++_part/.tangentfolder": {
+			"uuid": "1f1b6c11-2bac-6750-bdc6-a7a81e0b08a1"
+		},
+		"FILES/HomeLabe.png": {
+			"uuid": "1f1b6c0d-a56b-6e50-a51f-d9533b75e6b9"
+		},
+		"FILES/README.md.md": {
+			"uuid": "1f1b6c0d-a547-6460-ad81-48d31df7d292",
+			"modified": "2026-09-22T20:02:41.276Z",
+			"structure": [
+				{
+					"type": 1,
+					"form": "wiki",
+					"start": 291,
+					"end": 308,
+					"href": "HomeLabe.png",
+					"context": "![[HomeLabe.png]]",
+					"to": "FILES/HomeLabe.png"
+				},
+				{
+					"type": 2,
+					"level": 1,
+					"text": "Docker services",
+					"start": 310,
+					"end": 327
+				}
+			]
+		},
+		"FILES/certs/.tangentfolder": {
+			"uuid": "1f1b6c0d-c205-6ac0-a97e-b8101abc44a0"
+		},
+		"FILES/telegramBotRPI5_And_Additional_fan/README.md": {
+			"uuid": "1f1b6c0d-a562-6210-bc1e-b44f207d1628",
+			"modified": "2026-09-21T19:54:25.911Z",
+			"structure": [
+				{
+					"type": 2,
+					"level": 1,
+					"text": "Telegram",
+					"start": 0,
+					"end": 10
+				}
+			]
+		},
+		"FILES/telegramBotRPI5_And_Additional_fan/.tangentfolder": {
+			"uuid": "1f1b6c11-c7ee-6e60-a47b-f195749b61da"
+		}
+	}
+}

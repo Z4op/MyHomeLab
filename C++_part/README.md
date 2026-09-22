@@ -1,6 +1,9 @@
 # Description
 this is a services that manage the extra fan that I use to help cooling out my raspberry pi 5
 
+
+![[Elecrticall_Sheet.png]]
+
 # 1.Installa le dipendenze
 ```bash
 sudo apt update -y && sudo apt upgrade -y

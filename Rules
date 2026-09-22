@@ -1,0 +1,34 @@
+br-fedfabccf643  #-forgejo interface
+br-a307629ae4e8  #-pihole
+
+
+modification the table with the rule of DOCKER-FORWARD
+from:
+-i br-fedfabccf643 -j ACCEPT
+
+to:
+-i br-fedfabccf643 -j DROP # disabling the forward of the forgejo interface so now it is open only localy
+
+
+modify the table ipv4/nat/Docker to disable the forward of the pihole interface and the nat of the 54 port to the 5335
+from:
+! -i br-a307629ae4e8 -p tcp -m tcp --dport 8811 -j DNAT --to-destination 172.19.0.2:80
+! -i br-a307629ae4e8 -p tcp -m tcp --dport 5335 -j DNAT --to-destination 172.19.0.3:5335 #tcp
+! -i br-a307629ae4e8 -p udp -m udp --dport 5335 -j DNAT --to-destination 172.19.0.3:5335 #udp
+
+to:
+-d 127.0.0.1/32 ! -i br-a307629ae4e8 -p tcp -m tcp --dport 8811 -j DNAT --to-destination 172.19.0.2:80
+-d 127.0.0.1/32 ! -i br-a307629ae4e8 -p tcp -m tcp --dport 5335 -j DNAT --to-destination 172.19.0.3:5335 #tcp 
+-d 127.0.0.1/32 ! -i br-a307629ae4e8 -p udp -m udp --dport 5335 -j DNAT --to-destination 172.19.0.3:5335 #udp
+
+
+UFW
+sudo ufw allow in on end0 to any port 22 proto tcp
+sudo ufw allow in on tailscal0 to any port 22 proto tcp
+sudo ufw allow in on end0 to any port 443 proto tcp
+sudo ufw allow in on tailscl0 to any port 443 proto tcp
+sudo ufw allow in on end0 to any port 53 proto tcp
+sudo ufw allow in on tailscl0 to any port 53 proto tcp
+
+sudo ufw allow in on end0 from 192.168.1.0/24 to any port 139 proto tcp
+sudo ufw allow in on end0 from 192.168.1.0/24 to any port 445 proto tcp

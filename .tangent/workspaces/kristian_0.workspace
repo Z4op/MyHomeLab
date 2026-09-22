@@ -1,0 +1,42 @@
+{
+	"directoryView": {
+		"openDirectories": [],
+		"selection": [
+			"FILES/README.md.md"
+		],
+		"sortMode": "name|ascending",
+		"sortFoldersToTop": true,
+		"sortQueriesToTop": true
+	},
+	"tagTreeView": {
+		"openDirectories": [],
+		"selection": [
+			"FILES/README.md.md"
+		],
+		"sortMode": "name|ascending",
+		"sortFoldersToTop": true,
+		"sortQueriesToTop": true
+	},
+	"leftSidebar": {
+		"size": 300,
+		"mode": 1,
+		"lastUnfocusedMode": 1,
+		"lastFocusedMode": 1,
+		"currentTab": "files"
+	},
+	"targetFocusModeLevel": 1,
+	"focusing": false,
+	"system": {
+		"showMenu": false,
+		"section": "Notes"
+	},
+	"version": 3,
+	"window_state": {
+		"x": 0,
+		"y": 28,
+		"width": 1919,
+		"height": 1052,
+		"maximized": false,
+		"fullscreen": false
+	}
+}

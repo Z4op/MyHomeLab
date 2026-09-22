@@ -1,0 +1,117 @@
+{
+	"threadHistory": [
+		{
+			"thread": [
+				"FILES/certs"
+			],
+			"currentNode": "FILES/certs"
+		},
+		{
+			"thread": [
+				"FILES/README.md.md"
+			],
+			"currentNode": "FILES/README.md.md"
+		},
+		{
+			"thread": [
+				"FILES/HomeLabe.png"
+			],
+			"currentNode": "FILES/HomeLabe.png"
+		},
+		{
+			"thread": [
+				"FILES/README.md.md"
+			],
+			"currentNode": "FILES/README.md.md"
+		},
+		{
+			"thread": [
+				"FILES/C++_part"
+			],
+			"currentNode": "FILES/C++_part"
+		},
+		{
+			"thread": [
+				"FILES/C++_part",
+				"FILES/C++_part/README.md"
+			],
+			"currentNode": "FILES/C++_part/README.md"
+		},
+		{
+			"thread": [
+				"FILES/C++_part",
+				"FILES/C++_part/README.md"
+			],
+			"currentNode": "FILES/C++_part"
+		},
+		{
+			"thread": [
+				"FILES/telegramBotRPI5_And_Additional_fan"
+			],
+			"currentNode": "FILES/telegramBotRPI5_And_Additional_fan"
+		},
+		{
+			"thread": [
+				"FILES/certs"
+			],
+			"currentNode": "FILES/certs"
+		},
+		{
+			"thread": [
+				"FILES/README.md.md"
+			],
+			"currentNode": "FILES/README.md.md"
+		}
+	],
+	"threadIndex": 9,
+	"previousSession": "",
+	"map": {
+		"nodes": {
+			"FILES/certs": {
+				"node": "FILES/certs",
+				"isRoot": true,
+				"strength": 2,
+				"dateCreated": "2026-09-22T20:04:46.828Z"
+			},
+			"FILES/README.md.md": {
+				"node": "FILES/README.md.md",
+				"isRoot": true,
+				"strength": 2,
+				"dateCreated": "2026-09-22T20:05:49.643Z"
+			},
+			"FILES/HomeLabe.png": {
+				"node": "FILES/HomeLabe.png",
+				"isRoot": true,
+				"strength": 2,
+				"dateCreated": "2026-09-22T20:05:50.436Z"
+			},
+			"FILES/C++_part": {
+				"node": "FILES/C++_part",
+				"isRoot": true,
+				"strength": 3,
+				"dateCreated": "2026-09-22T20:06:18.438Z"
+			},
+			"FILES/C++_part/README.md": {
+				"node": "FILES/C++_part/README.md",
+				"isRoot": false,
+				"strength": 3,
+				"dateCreated": "2026-09-22T20:06:24.452Z"
+			},
+			"FILES/telegramBotRPI5_And_Additional_fan": {
+				"node": "FILES/telegramBotRPI5_And_Additional_fan",
+				"isRoot": true,
+				"strength": 2,
+				"dateCreated": "2026-09-22T20:06:34.822Z"
+			}
+		},
+		"connections": [
+			{
+				"from": "FILES/C++_part",
+				"to": "FILES/C++_part/README.md",
+				"strength": 3,
+				"dateCreated": "2026-09-22T20:06:24.452Z"
+			}
+		]
+	},
+	"version": 1
+}

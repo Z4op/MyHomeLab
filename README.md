@@ -1,7 +1,10 @@
 In my SetUp I have a raspberry pi 5 with Armbian as primary operative system, and  I add external hard-disk, so I have more space for every thing I what to do or I want to try.
 
 In my case I have 2 HDD of 1TB, 1 SSHD of 2TB and an NVME of 128GB where I want to try the IA model compression.
+
+
 ![[HomeLabe.png]]
+
 
 # Docker services
 I have the current service

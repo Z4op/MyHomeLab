@@ -1,0 +1,15 @@
+[Unit]
+Description=Telegram Bot Daemon
+After=network.target
+
+[Service]
+# Eseguiamo il bot per telegram per monitorare il server
+User=root
+ExecStart=/usr/local/bin/run_Bot
+Restart=always
+RestartSec=5
+StandardOutput=journal
+StandardError=journal
+
+[Install]
+WantedBy=multi-user.target

@@ -1,0 +1,4 @@
+serial
+docker
+pyserial
+python-telegram-bot

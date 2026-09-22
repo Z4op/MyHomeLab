@@ -1,0 +1,15 @@
+[Unit]
+Description=RP2040 Fan Speed Controller Daemon
+After=network.target
+
+[Service]
+# Eseguiamo come root per avere accesso garantito a /dev/ttyACM0 e /sys/class/thermal
+User=root
+ExecStart=/usr/local/bin/fan-control
+Restart=always
+RestartSec=5
+StandardOutput=journal
+StandardError=journal
+
+[Install]
+WantedBy=multi-user.target

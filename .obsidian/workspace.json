@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "README.md"
+              "title": "README"
             }
           }
         ]
@@ -191,7 +191,7 @@
   "active": "5dabeb2cb2056386",
   "lastOpenFiles": [
     "Rules",
-    "README.md.md",
+    "README.md",
     "certs/ferma.sh",
     "certs/createCA.sh",
     "certs/kcert.sh",
